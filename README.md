@@ -6,7 +6,7 @@ This repository provides the code and data for the Tilburg University Data Scien
 ## Dataset
 **Bender, A., Whelan, B., & Sukkarieh, S. (2019). Ladybird cobbitty 2017 brassica dataset. [https://doi.org/10.25910/5c941d0c8bccb](https://doi.org/10.25910/5c941d0c8bccb)**
 
-For this study, only the manual measurements, environmental data, and RGB images from week 6 were used and are stored in this repository as raw data. The full dataset is publicly available under a CC BY-NC-SA 4.0 license and can be downloaded [here](http://hdl.handle.net/2123/20187).
+For this study, only the manual measurements and in-situ environmental data are stored in this repository as raw data. The autonomously collected RGB images from Week 6 are not stored directly in this repository but are part of the full dataset, which is publicly available under a CC BY-NC-SA 4.0 license. The complete dataset, including the images, can be downloaded [here](http://hdl.handle.net/2123/20187).
 
 ## Directory Structure
 - **[`data/`](data/)**: Contains subdirectories with the raw and processed datasets:
@@ -33,3 +33,20 @@ For this study, only the manual measurements, environmental data, and RGB images
 | Model development     | [ list specific versions ]<br>[ list specific versions ] |
 | Model evaluation      | [ list specific versions ]<br>[ list specific versions ] |
 | Visualization         | [ list specific versions ]<br>[ list specific versions ] |
+
+## For Reproducibility Purposes
+To ensure the notebooks run correctly and reproduce the results as intended, follow the steps below.
+
+### Step 1: Download the repository
+The notebooks rely on the existing file structure of the repository to import the data. To avoid errors:
+- Click the green **"Code"** button at the top of this repository.
+- Select **"Download ZIP"** to download the entire repository as a compressed file.
+- Extract the ZIP file to maintain the folder structure.
+- Inside the extracted repository, locate the `A_raw_data/` folder and extract any additional ZIP files it contains.
+
+### Step 2: Download the image data
+Due to GitHub's upload limitations, the file `autonomous_20171115_week_06.7z` must be downloaded separately:
+- Download the file from the [original source](http://hdl.handle.net/2123/20187). Using a download manager is recommended.
+- This directory has a placeholder folder which should be replaced with the extracted download.
+
+**Note**: This step is optional if you do not intend to reproduce the image preprocessing stage (Phase 2). Subsequent stages can proceed using the already processed data included in the repository.
