@@ -1,4 +1,4 @@
-# Bridging Dataset Limitations for Underrepresented Crops: Advancing Brassica Yield Prediction With cGAN-Augmented RGB Imagery
+# Bridging Dataset Limitations for Underrepresented Crops: Advancing Brassica Yield Prediction with cGAN-Augmented RGB Imagery
 
 ## Project Overview
 This repository provides the code and data for the Tilburg University Data Science & Society Master's thesis, _Bridging Dataset Limitations for Underrepresented Crops: Advancing Brassica Yield Prediction with cGAN-Augmented RGB Imagery_. The thesis explores the use of Conditional Generative Adversarial Networks (cGANs) to generate synthetic image data for augmenting small datasets of underrepresented crops, and examines their impact on the performance of Convolutional Neural Network (CNN)-based yield prediction models.
