@@ -23,16 +23,8 @@ For this study, only the manual measurements and in-situ environmental data are 
 - Python
 
 ## Algorithms
-- [Conditional Generative Adversarial Network (cGAN)](https://doi.org/10.48550/arXiv.1411.1784)
-- [Convolutional Neural Network (CNN)]()
-
-## Libraries and Tools
-| **Category**          | **Library/Tool and Version**                                                    |
-|:----------------------|:--------------------------------------------------------------------------------|
-| Data preprocessing    | [ list specific versions ]<br>[ list specific versions ] |
-| Model development     | [ list specific versions ]<br>[ list specific versions ] |
-| Model evaluation      | [ list specific versions ]<br>[ list specific versions ] |
-| Visualization         | [ list specific versions ]<br>[ list specific versions ] |
+- Conditional Generative Adversarial Network (cGAN)
+- Convolutional Neural Network (CNN)
 
 ## For Reproducibility Purposes
 To ensure the notebooks run correctly and reproduce the results as intended, follow the steps below.
